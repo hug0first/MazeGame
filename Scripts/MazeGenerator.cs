@@ -64,10 +64,10 @@ public class MazeGenerator : MonoBehaviour
         {
             Destroy(block);
         }
-        foreach (GameObject block in GameObject.FindGameObjectsWithTag("Checkpoint"))
+        /* foreach (GameObject block in GameObject.FindGameObjectsWithTag("Checkpoint"))
         {
             Destroy(block);
-        }
+        } */
         foreach (GameObject block in GameObject.FindGameObjectsWithTag("Ceiling"))
         {
             Destroy(block);
